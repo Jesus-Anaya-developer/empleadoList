@@ -74,4 +74,8 @@ export class EmpleadoListComponent {
     return this.listEmpleados.filter(list => list.sexo === 'Masculino').length;
   }
 
+  empleadoCountRadioButton(radioButtonSelect: string): void {
+    this.radioButtonSelect = radioButtonSelect;
+  }
+
 }
