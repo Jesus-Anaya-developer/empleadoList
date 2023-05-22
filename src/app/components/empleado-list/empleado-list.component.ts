@@ -64,4 +64,12 @@ export class EmpleadoListComponent {
     return this.listEmpleados.length;
   }
 
+  obtenerFemenino(): number {
+    return this.listEmpleados.filter(list => list.sexo === 'Femenino').length;
+  }
+
+  obtenerMasculino(): number {
+    return this.listEmpleados.filter(list => list.sexo === 'Masculino').length;
+  }
+
 }
