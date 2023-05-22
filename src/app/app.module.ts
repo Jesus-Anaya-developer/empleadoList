@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { AlertModule } from 'ngx-bootstrap/alert';
+import { EmpleadoListComponent } from './components/empleado-list/empleado-list.component';
+import { CountEmpleadosComponent } from './components/count-empleados/count-empleados.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmpleadoListComponent,
+    CountEmpleadosComponent
   ],
   imports: [
     BrowserModule,
