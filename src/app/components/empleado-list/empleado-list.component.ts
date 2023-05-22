@@ -8,6 +8,8 @@ import { Empleado } from 'src/app/models/empleado';
 })
 export class EmpleadoListComponent {
 
+  radioButtonSelect = 'todos';
+
   listEmpleados: Empleado[] = [
     {
       legajo: 1,

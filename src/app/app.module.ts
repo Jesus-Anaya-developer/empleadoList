@@ -8,6 +8,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { EmpleadoListComponent } from './components/empleado-list/empleado-list.component';
 import { CountEmpleadosComponent } from './components/count-empleados/count-empleados.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CountEmpleadosComponent } from './components/count-empleados/count-empl
     AppRoutingModule,
     TooltipModule.forRoot(),
     AlertModule.forRoot(),
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
